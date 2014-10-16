@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <title>Lab 5 - Temperature Convertor </title>
+      <script>
+         function myfunction()
+         {
+         document.getElementById('fahrenheit').value=""; 
+         }
+         
+         function FahrenheitConverter(){
+         document.converter.celsius.value = (document.converter.fahrenheit.value - 32) * 5 / 9
+         }
+         
+         function CelsiusConverter(){
+         document.converter.fahrenheit.value = (document.converter.celsius.value * 9 / 5) + 32
+         }
+      </script>
+   </head>
+   <body onload="clearFunction()">
+      <h2>Lab 5 - Temperature Convertor </h2>
+      <form name="converter" action="" id="converter" >
+         <p>
+            <label for='fahrenheit'>Fahrenheit:</label>
+            <input type="text" id="fahrenheit" name="fahrenheit"   required />
+            <input type="button" value="Fahrenheit to Celsius"  onclick="FahrenheitConverter()" />
+         </p>
+         <p>
+            <label for='celsius'>Celsius:</label>
+            <input type="text" id="celsius" name="celsius"   required="required"/>
+            <input type="button" value="Celsius to Fahrenheit" onclick="CelsiusConverter()" />
+         </p>
+      </form>
+   </body>
+</html><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <title>Lab 5 - Temperature Convertor </title>
+      <script>
+         function myfunction()
+         {
+         document.getElementById('fahrenheit').value=""; 
+         }
+         
+         function FahrenheitConverter(){
+         document.converter.celsius.value = (document.converter.fahrenheit.value - 32) * 5 / 9
+         }
+         
+         function CelsiusConverter(){
+         document.converter.fahrenheit.value = (document.converter.celsius.value * 9 / 5) + 32
+         }
+      </script>
+   </head>
+   <body onload="clearFunction()">
+      <h2>Lab 5 - Temperature Convertor </h2>
+      <form name="converter" action="" id="converter" >
+         <p>
+            <label for='fahrenheit'>Fahrenheit:</label>
+            <input type="text" id="fahrenheit" name="fahrenheit"   required />
+            <input type="button" value="Fahrenheit to Celsius"  onclick="FahrenheitConverter()" />
+         </p>
+         <p>
+            <label for='celsius'>Celsius:</label>
+            <input type="text" id="celsius" name="celsius"   required="required"/>
+            <input type="button" value="Celsius to Fahrenheit" onclick="CelsiusConverter()" />
+         </p>
+      </form>
+   </body>
+</html>
